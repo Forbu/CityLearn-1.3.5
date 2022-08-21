@@ -1,4 +1,4 @@
-gym==0.21
+gym==0.24
 matplotlib
 numpy==1.21.6
 pandas==1.3.5

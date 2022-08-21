@@ -615,7 +615,7 @@ class CityLearnEnv(Environment, Env):
         super().next_time_step()
         self.update_variables()
 
-    def reset(self):
+    def reset(self, seed=None):
         r"""Reset `CityLearnEnv` to initial state.
         
         Returns
